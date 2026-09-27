@@ -1,0 +1,5 @@
+chuoi= input("Nhập chuỗi:")
+danh_sach= chuoi.split()
+print(danh_sach)
+sent= "-".join(danh_sach)
+print(sent)
