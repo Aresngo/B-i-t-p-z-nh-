@@ -1,0 +1,12 @@
+chuoi = input("chuỗi chữ cái:")
+nguyen_am= "aeiou"
+so_luong_nguyen_am=0
+so_luong_phu_am=0
+for chu_cai in chuoi:
+    if chu_cai in nguyen_am:
+       so_luong_nguyen_am+=1
+    else:
+       so_luong_phu_am+=1
+print("số nguyên âm:", so_luong_nguyen_am)
+print("số phụ âm:", so_luong_phu_am)
+
