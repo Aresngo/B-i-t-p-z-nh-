@@ -1,0 +1,7 @@
+chuoi= input("Nhập danh sách:")
+danh_sach = chuoi.split()
+a=[]
+for i in danh_sach:
+    if i not in a:
+        a.append(i)
+print(a)
