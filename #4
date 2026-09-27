@@ -1,0 +1,3 @@
+sentence= input("Nhập câu:")
+result= sentence.title()
+print(result)
