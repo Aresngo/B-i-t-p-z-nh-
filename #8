@@ -1,0 +1,13 @@
+chuoi = input("Nhập các số: ")
+word = chuoi.split()
+danh_sach = []
+for i in word:
+    danh_sach.append(int(i))
+tong = sum(danh_sach)
+trung_binh = tong/len(danh_sach)
+lon_nhat = max(danh_sach)
+
+print("Tổng:", tong)
+print("Trung bình:", trung_binh)
+print("Số lớn nhất:", lon_nhat)
+
