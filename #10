@@ -1,0 +1,2 @@
+danh_sach= input("Nhập danh sách:")
+print(danh_sach [::-1])
