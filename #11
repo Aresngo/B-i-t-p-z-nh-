@@ -1,0 +1,7 @@
+chuoi= (input("danh sách số:"))
+danh_sach = chuoi.split()
+lit=[]
+for i in danh_sach:
+    if int(i)%2==0:
+        lit.append(int(i))
+print(sum(lit))
