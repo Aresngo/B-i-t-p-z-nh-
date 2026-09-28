@@ -1,0 +1,3 @@
+chuoi = input("Nhập các số: ").split()
+danh_sach = [int(i) for i in chuoi if int(i) > 10]
+print(danh_sach)
