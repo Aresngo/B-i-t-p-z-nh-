@@ -1,7 +1,11 @@
-chuoi = input("Nhập chuỗi:")
-count=0
-gia_tri=0
-for i in len(chuoi):
-    chuoi.count(i)
-    if i gia_tri > max(i)
-       print(gia_tri)
+danh_sach = input("Nhập danh sách:")
+lst= danh_sach.split()
+nhieu_nhat=0
+lon_nhat=0
+for a in lst:
+    dem= lst.count(a)
+    if dem > nhieu_nhat:
+        nhieu_nhat = dem
+        lon_nhat = a
+print(nhieu_nhat)
+print(lon_nhat)
