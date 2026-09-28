@@ -1,0 +1,11 @@
+danh_sach_1= input("Nhập danh sách 1:").split()
+danh_sach_2= input("Nhập danh sách 2:").split()
+danh_1=[]
+danh_2=[]
+for i in danh_sach_1:
+    danh_1.append(int(i))
+for a in danh_sach_2:
+    danh_2.append(int(a))
+danh_sach = danh_1 + danh_2
+danh_sach.sort()
+print(danh_sach)
