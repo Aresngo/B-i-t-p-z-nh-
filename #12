@@ -1,0 +1,7 @@
+chuoi = input("Nhập chuỗi:")
+count=0
+gia_tri=0
+for i in len(chuoi):
+    chuoi.count(i)
+    if i gia_tri > max(i)
+       print(gia_tri)
